@@ -20,8 +20,9 @@ const MainSection = () => {
           <Typewriter
             strings={[
               'Software Engineer',
-              'Continuously Learning',
               'React Developer',
+              'Book lover',
+              'Lifelong Learner',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

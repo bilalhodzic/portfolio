@@ -21,23 +21,27 @@ const IntroSection = () => {
 
           <div className={s.description}>
             <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
+              I love the process of creating new things with
+              technology. That's why <br />I fell in love with
+              programming and have at least learnt something, I think…
+              🤷‍♂️
             </p>
 
             <p>
-              My field of Interest's are building new
+              My fields of interests are building new
               <i>
                 <b className={s.purple}>
                   {' '}
-                  Web Technologies and Products
+                  Web Solutions and Products
                 </b>
               </i>
+              <br />
+              using latest technologies and trends.
             </p>
 
             <p>
               A passionate Frontend Developer with the background of
-              Software Development <br />I have an experience of
+              Software Development. <br />I have an experience of
               building{' '}
               <i>
                 <b className={s.purple}>Web and Mobile</b>

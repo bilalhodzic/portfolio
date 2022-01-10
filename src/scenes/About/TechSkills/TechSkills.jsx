@@ -5,14 +5,9 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiSass,
 } from 'react-icons/di';
-import {
-  SiTypescript,
-  SiRedux,
-  SiSocketDotIo,
-  SiAmazonaws,
-} from 'react-icons/si';
+import { SiCsharp, SiDotNet } from 'react-icons/si';
+import { AiOutlineConsoleSql } from 'react-icons/ai';
 
 const TechSkills = () => {
   return (
@@ -21,29 +16,25 @@ const TechSkills = () => {
         <DiJavascript1 />
       </li>
       <li className={s.techIcon}>
-        <SiTypescript />
+        <DiReact />
       </li>
       <li className={s.techIcon}>
         <DiNodejs />
       </li>
-      <li className={s.techIcon}>
-        <DiReact />
-      </li>
+
       <li className={s.techIcon}>
         <DiMongodb />
       </li>
       <li className={s.techIcon}>
-        <DiSass />
+        <SiDotNet />
       </li>
       <li className={s.techIcon}>
-        <SiAmazonaws />
+        <AiOutlineConsoleSql />
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
+        <SiCsharp />
       </li>
-      <li className={s.techIcon}>
-        <SiSocketDotIo />
-      </li>
+
       <li className={s.techIcon}>
         <DiGit />
       </li>
