@@ -1,0 +1,57 @@
+.light {
+  --txt: #000;
+  --txt-secondary: #2978b5;
+  --txt-sec-darker: #2571ac;
+  --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-home-section-main: none;
+  --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-primary: #fafafa;
+  --bg: #206090;
+  --bg-active: #206090;
+  --bg-header: transparent;
+  --bg-footer: transparent;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #5393c3;
+  --border-primary: #246ca2;
+  --logo-primary: #69a0cb;
+  --social-icon: #206090;
+  --social-shadow: #18486c;
+  --preloader: #fafafa;
+  --bg-modal: #fafafa;
+  --modal-border: none;
+  --modal-close: #1c547e;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #000;
+}
+
+.dark {
+  --txt: #fff;
+  --txt-secondary: #2978b5;
+  --txt-sec-darcker: #2571ac;
+  --bg-layout-home: linear-gradient(to left, RGB(27 20 41), RGB(20 15 35));
+  --bg-home-section-main: linear-gradient(to bottom left, rgba(17, 16, 16, 0.678), rgba(12, 10, 22, 0.863)), url(../assets/home-bg.jpg);
+  --bg-layout-base: #100D19;
+  --bg-primary: #181a27;
+  --bg: #206090;
+  --bg-active: #206090;
+  --bg-header: rgba(33,32,56,0.84);
+  --bg-footer: #0a0416;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #5393c3;
+  --border-primary: #246ca2;
+  --logo-primary: #69a0cb;
+  --social-icon: #206090;
+  --social-shadow: #18486c;
+  --preloader: #0c0513;
+  --bg-modal: #100D19;
+  --modal-border: 1px solid rgba(0,0,0,.125);
+  --modal-close: #1c547e;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #fff;
+}
