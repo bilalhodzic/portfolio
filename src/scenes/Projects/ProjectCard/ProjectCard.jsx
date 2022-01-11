@@ -8,23 +8,30 @@ const ProjectCard = ({ id, image, title, description }) => {
   return (
     <li className={s.card}>
       <div className={s.cardWrapper}>
-        <Link
-          to={{
-            pathname: `/project/${id}`,
-            state: {
-              background: location,
-            },
-          }}
-        >
-          <LazyLoadImage
-            alt="card-img"
-            effect="blur"
-            src={image.src}
-            width="100%"
-            style={{ minHeight: '10rem' }}
-            placeholderSrc={image.placeholderSrc}
-          />
-        </Link>
+        <div className={s.cardHeader}>
+          <Link
+            to={{
+              pathname: `/project/${id}`,
+              state: {
+                background: location,
+              },
+            }}
+          >
+            <LazyLoadImage
+              alt="card-img"
+              effect="blur"
+              src={image.src}
+              width="100%"
+              style={{
+                minHeight: '10rem',
+                objectFit: 'contain',
+                height: '100%',
+              }}
+              placeholderSrc={image.placeholderSrc}
+              wrapperClassName={s.projectimage}
+            />
+          </Link>
+        </div>
 
         <div className={s.cardBody}>
           <h3 className={s.title}>{title}</h3>

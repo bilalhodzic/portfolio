@@ -1,124 +1,68 @@
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'STOKR - Frontend Developer',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'An online investment platform based on blockchain. STOKR is the all-in-one solution for young and growing ventures looking to raise capital in the EU.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+      src: 'https://res.cloudinary.com/doswamdah/image/upload/v1641939994/portfolio/1577966302545_rbxeqc.jpg',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: 'https://stokr.io',
     },
-    technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
-    ],
+    role: `I'm part of the development team working on the frontend part of the platform. 
+    My role is to build new features and refactor old code on the platform.`,
+    technologies: ['#react', '#nodejs', '#blockchain', '#mongodb'],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Spider job - Frontend dev',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'Online platform for searching and giving job opportunities. Made for German market',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+      src: 'https://res.cloudinary.com/doswamdah/image/upload/v1641940849/portfolio/spider_bnemig.png',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://www.spiderjob.de/#/',
     },
-    technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
-    ],
+    technologies: ['#react', '#netcore', '#mssql', '#jwt'],
+    role: `I was part of the development team who developed the first version of this web application. I was mostly working on developing company dashboard of this app.`,
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'ReadMore mobile app',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'A Mobile app for searching, downloading, and reading books on your phone. All for FREE',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+      src: 'https://res.cloudinary.com/doswamdah/image/upload/v1641941192/portfolio/feature_transparent_a9vhpm.png',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: 'https://play.google.com/store/apps/details?id=com.bilalhodzic.ReadMore',
+      repo: 'https://github.com/bilalhodzic/readmore-RN',
     },
     technologies: [
       '#react-native',
       'expo',
-      '#redux',
-      '#redux-toolkit',
+      '#pdfkit',
       '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#webscraping',
+      '#sqlite',
     ],
+    role: `I built the whole app`,
   },
   {
     id: '4',
-    title: 'Places Mobile App',
+    title: 'Flawless AI',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'Online platform which serves as legal assistant. It can help you with document drafting, legal document managament and storage',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+      src: 'https://res.cloudinary.com/doswamdah/image/upload/v1641942571/portfolio/logo_mask3_hdqdgm.png',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: 'https://flawlessai.herokuapp.com/',
+      repo: 'https://github.com/bilalhodzic/flawlessAI',
     },
-    technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
-    ],
-  },
-  {
-    id: '5',
-    title: 'Shopping Cart',
-    description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
-    },
-    technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
-    ],
+    technologies: ['#react', '#nodejs', '#mongodb', '#aws'],
+    role: 'Co-founder of the project. Currently in process of building the online platform.',
   },
 ];

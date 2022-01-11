@@ -1,9 +1,8 @@
 import s from './Resume.module.scss';
 import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
-import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
+import { BiLinkExternal } from 'react-icons/all';
 import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
 import Button from '../../components/UIElements/Button/Button';
 //react-pdf
 import { Document, Page, pdfjs } from 'react-pdf';
@@ -48,12 +47,16 @@ const Resume = () => {
         </div>
 
         <Button
-          style={{ margin: 'auto', width: '15rem' }}
+          style={{
+            margin: 'auto',
+            width: '15rem',
+            marginTop: '2rem',
+          }}
           className="primary"
           href={resumeLink}
           target="_blank"
         >
-          {/* <DownloadIcon fill="#fff" /> */}
+          <BiLinkExternal />
           <span className={s.downloadText}> View online</span>
         </Button>
 

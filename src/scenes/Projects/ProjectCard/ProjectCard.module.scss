@@ -4,50 +4,85 @@
 
 .card {
   position: relative;
-  width: 30%;
+  width: 50%;
   padding: 50px 25px;
   min-width: 320px;
 }
 
+@media (max-width: 768px) {
+ .card{
+   padding:25px 0;
+ }
+}
+
 .cardWrapper {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  min-height: 23em;
+  position: relative;
   line-height: 1.5;
   word-wrap: break-word;
   background-color: transparent;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
+  border-radius: 2rem;
   opacity: 0.9;
   transition: all 0.5s ease 0s;
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+  box-shadow: 0 4px 5px 3px rgba(47, 110, 204, 0.459);
   color: var(--txt);
   height: 100%;
+  overflow: hidden;
   &:hover {
     transform: scale(1.02);
-    overflow: hidden;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+    box-shadow: 0 4px 4px 5px rgba(38, 83, 151, 0.561);
+ 
+    .description{
+      height: initial;
+      opacity: 1;
+    }
+
+    .cardHeader{
+        filter:brightness(0.4);
+    }
   }
+  
   & > a {
     width: 100%;
   }
 }
 
+.cardHeader {
+  height:inherit;
+  transition: .5s;
+}
+
+.projectimage {
+  position: absolute;
+  height: 100%;
+
+}
+
 .cardBody {
   flex: 1 1 auto;
-  padding: 1.25rem 0;
+  padding: 1rem;
+  position: absolute;
+  bottom:0;
+  color:white;
+  filter:brightness(1);
+ 
 }
 
 .title {
   margin-bottom: .75rem;
   font-size: 1.25rem;
-  text-align: center;
 }
 
 .description {
   text-align: justify;
-  margin-top: 0;
-  margin-bottom: 1rem;
+   transition: opacity .8s ease-out;
+   
+  display: block;
+  height: 0;
+  opacity:0;
+    
+
 }

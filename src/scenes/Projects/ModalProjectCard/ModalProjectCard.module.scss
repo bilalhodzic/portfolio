@@ -6,6 +6,7 @@
   line-height: 1.5;
   word-wrap: break-word;
   color: var(--txt);
+  min-width: 25em;
 }
 
 .image {
@@ -16,8 +17,9 @@
 
 .cardBody {
   flex: 1 1 auto;
-  padding: 1.25rem 0;
+  padding-bottom: 1.25rem;
   max-width: 575px;
+  text-align: center;
 }
 
 .cardFooter {
@@ -35,6 +37,10 @@
   text-align: center;
 }
 
+.purple {
+  color: var(--txt-secondary);
+}
+
 .technologies {
   display: flex;
   flex-wrap: wrap;
@@ -44,14 +50,11 @@
 
 .technologies > span {
   display: inline-block;
-  background-color: RGB(129 72 144 / 56%);
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
-  padding: 2px 10px 2px 10px;
+  background-color: #5393c3;
+ 
+  padding: 0.5em 1em;
   margin: 0 4px 8px;
-  border-radius: 50px;
+  border-radius: 20px;
   font-size: 80%;
-  font-weight: 600;
   color: var(--tags-txt);
 }
