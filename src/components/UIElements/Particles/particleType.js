@@ -71,7 +71,8 @@ export const DARK_THEME_PARTICLES = {
   },
   move: {
     direction: 'right',
-    speed: 0.05,
+    speed: 0.5,
+    enable: true,
   },
   size: {
     value: 1,

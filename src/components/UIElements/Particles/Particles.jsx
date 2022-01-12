@@ -1,4 +1,4 @@
-import ReactParticles from 'react-particles-js';
+import ReactParticles from 'react-tsparticles';
 import {
   DARK_THEME_PARTICLES,
   LIGHT_THEME_PARTICLES,
@@ -24,8 +24,21 @@ const Particles = () => {
             },
           },
           modes: {
+            // push: {
+            //   particles_nb: 1,
+            // },
+            bubble: {
+              distance: 400,
+              duration: 2,
+              opacity: 0.8,
+              size: 40,
+            },
             push: {
-              particles_nb: 1,
+              quantity: 4,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
             },
           },
         },

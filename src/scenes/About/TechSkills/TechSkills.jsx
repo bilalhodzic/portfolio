@@ -6,7 +6,7 @@ import {
   DiMongodb,
   DiGit,
 } from 'react-icons/di';
-import { SiCsharp, SiDotNet } from 'react-icons/si';
+import { SiCsharp, SiDotnet } from 'react-icons/si';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
 
 const TechSkills = () => {
@@ -26,7 +26,7 @@ const TechSkills = () => {
         <DiMongodb />
       </li>
       <li className={s.techIcon}>
-        <SiDotNet />
+        <SiDotnet />
       </li>
       <li className={s.techIcon}>
         <AiOutlineConsoleSql />
