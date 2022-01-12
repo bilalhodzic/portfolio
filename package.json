@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-    "engines": {
+  "engines": {
     "npm": "6.14.13",
     "node": "14.17.2"
   },
@@ -57,5 +57,4 @@
       "last 1 safari version"
     ]
   }
-
 }
